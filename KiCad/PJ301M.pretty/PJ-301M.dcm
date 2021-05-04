@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PJ-301M
+D 3.5 mm switching jack socket
+K
+F https://www.thonk.co.uk/wp-content/uploads/2014/02/Thonkiconn_Jack_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
