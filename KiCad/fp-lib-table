@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name PJ301M)(type KiCad)(uri ${KIPRJMOD}/PJ301M.pretty)(options "")(descr ""))
-  (lib (name 1825255)(type KiCad)(uri ${KIPRJMOD}/1825255.pretty)(options "")(descr ""))
-  (lib (name SOT-23-3)(type KiCad)(uri ${KIPRJMOD}/SOT-23-3.pretty)(options "")(descr ""))
+  (lib (name PerpetualADSR)(type KiCad)(uri ${KIPRJMOD}/PerpetualADSR.pretty)(options "")(descr ""))
 )

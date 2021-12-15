@@ -1,5 +1,2 @@
 (sym_lib_table
-  (lib (name PJ-301M)(type Legacy)(uri ${KIPRJMOD}/PJ301M.pretty/PJ-301M.lib)(options "")(descr ""))
-  (lib (name 1825255-1)(type Legacy)(uri ${KIPRJMOD}/1825255-1.lib)(options "")(descr ""))
-  (lib (name SS8050)(type Legacy)(uri ${KIPRJMOD}/SS8050.lib)(options "")(descr ""))
 )

@@ -1,11 +1,4 @@
-18993210196502225
-1825255
-SW_1825255-1
-
-
-0
-5
-5
+19399375020362238
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59702,13 +59695,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PJ301M
-PJ301M
-PJ-301M-3
-Connector
-0
-3
-3
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -72582,6 +72568,34 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+PerpetualADSR
+PJ301M
+PJ-301M-3
+Connector
+0
+3
+3
+PerpetualADSR
+PT166H
+
+
+0
+3
+3
+PerpetualADSR
+Potentiometer_Alps_RK09L_Single_Vertical
+Potentiometer, vertical, Alps RK09L Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09L/RK09L_list.html
+Potentiometer vertical Alps RK09L Single
+0
+3
+3
+PerpetualADSR
+SLIDE_SW_OS102011MS2QN1
+
+
+0
+3
+3
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -76306,13 +76320,6 @@ rotary encoder
 0
 5
 4
-SOT-23-3
-SOT-23-3
-
-
-0
-3
-3
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
