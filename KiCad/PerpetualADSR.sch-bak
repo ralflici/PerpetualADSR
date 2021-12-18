@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9800 2800 2    50   Input ~ 0
-+5V
 $Comp
 L Analog_ADC:MCP3208 U3
 U 1 1 61B88AC7
@@ -29,109 +27,88 @@ $EndComp
 $Comp
 L Device:R_POT_Small RV4
 U 1 1 61B9709E
-P 7350 4250
-F 0 "RV4" H 7290 4296 50  0000 R CNN
-F 1 "ATT_V" H 7290 4205 50  0000 R CNN
-F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 7350 4250 50  0001 C CNN
-F 3 "~" H 7350 4250 50  0001 C CNN
-	1    7350 4250
+P 7200 3750
+F 0 "RV4" H 7140 3796 50  0000 R CNN
+F 1 "ATT_V" H 7140 3705 50  0000 R CNN
+F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 7200 3750 50  0001 C CNN
+F 3 "~" H 7200 3750 50  0001 C CNN
+	1    7200 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT_Small RV6
 U 1 1 61B9BE68
-P 8350 4250
-F 0 "RV6" H 8290 4296 50  0000 R CNN
-F 1 "RISE_T" H 8290 4205 50  0000 R CNN
-F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 8350 4250 50  0001 C CNN
-F 3 "~" H 8350 4250 50  0001 C CNN
-	1    8350 4250
+P 7700 3750
+F 0 "RV6" H 7640 3796 50  0000 R CNN
+F 1 "RISE_T" H 7640 3705 50  0000 R CNN
+F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 7700 3750 50  0001 C CNN
+F 3 "~" H 7700 3750 50  0001 C CNN
+	1    7700 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT_Small RV8
 U 1 1 61B9C780
-P 9350 4250
-F 0 "RV8" H 9290 4296 50  0000 R CNN
-F 1 "RISE_V" H 9290 4205 50  0000 R CNN
-F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 9350 4250 50  0001 C CNN
-F 3 "~" H 9350 4250 50  0001 C CNN
-	1    9350 4250
+P 8250 3750
+F 0 "RV8" H 8190 3796 50  0000 R CNN
+F 1 "RISE_V" H 8190 3705 50  0000 R CNN
+F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 8250 3750 50  0001 C CNN
+F 3 "~" H 8250 3750 50  0001 C CNN
+	1    8250 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT_Small RV7
 U 1 1 61B9CB12
-P 9350 2650
-F 0 "RV7" H 9290 2696 50  0000 R CNN
-F 1 "FALL_T" H 9290 2605 50  0000 R CNN
-F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 9350 2650 50  0001 C CNN
-F 3 "~" H 9350 2650 50  0001 C CNN
-	1    9350 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT_Small RV3
-U 1 1 61BA15BD
-P 7150 2650
-F 0 "RV3" H 7090 2696 50  0000 R CNN
-F 1 "REL_T" H 7090 2605 50  0000 R CNN
-F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 7150 2650 50  0001 C CNN
-F 3 "~" H 7150 2650 50  0001 C CNN
-	1    7150 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT_Small RV5
-U 1 1 61B9CEB0
 P 8250 2650
-F 0 "RV5" H 8190 2696 50  0000 R CNN
-F 1 "FALL_V" H 8190 2605 50  0000 R CNN
+F 0 "RV7" H 8190 2696 50  0000 R CNN
+F 1 "FALL_T" H 8190 2605 50  0000 R CNN
 F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 8250 2650 50  0001 C CNN
 F 3 "~" H 8250 2650 50  0001 C CNN
 	1    8250 2650
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6700 2550 6700 2500
-Wire Wire Line
-	9350 2500 9350 2550
-Wire Wire Line
-	9350 2750 9350 2800
-Wire Wire Line
-	6700 2800 6700 2750
-Wire Wire Line
-	7150 2750 7150 2800
-Wire Wire Line
-	8250 2750 8250 2800
-Wire Wire Line
-	7150 2550 7150 2500
-Wire Wire Line
-	8250 2550 8250 2500
 $Comp
-L power:GND #PWR017
-U 1 1 61BD1151
-P 9900 4200
-F 0 "#PWR017" H 9900 3950 50  0001 C CNN
-F 1 "GND" H 9905 4027 50  0000 C CNN
-F 2 "" H 9900 4200 50  0001 C CNN
-F 3 "" H 9900 4200 50  0001 C CNN
-	1    9900 4200
+L Device:R_POT_Small RV3
+U 1 1 61BA15BD
+P 7200 2650
+F 0 "RV3" H 7140 2696 50  0000 R CNN
+F 1 "REL_T" H 7140 2605 50  0000 R CNN
+F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 7200 2650 50  0001 C CNN
+F 3 "~" H 7200 2650 50  0001 C CNN
+	1    7200 2650
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
-U 1 1 61BD571C
-P 5600 1950
-F 0 "#PWR013" H 5600 1700 50  0001 C CNN
-F 1 "GND" H 5605 1777 50  0000 C CNN
-F 2 "" H 5600 1950 50  0001 C CNN
-F 3 "" H 5600 1950 50  0001 C CNN
-	1    5600 1950
-	1    0    0    1   
+L Device:R_POT_Small RV5
+U 1 1 61B9CEB0
+P 7700 2650
+F 0 "RV5" H 7640 2696 50  0000 R CNN
+F 1 "FALL_V" H 7640 2605 50  0000 R CNN
+F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 7700 2650 50  0001 C CNN
+F 3 "~" H 7700 2650 50  0001 C CNN
+	1    7700 2650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 1950 5600 2000
+	6700 2550 6700 2500
+Wire Wire Line
+	6700 2800 6700 2750
+Wire Wire Line
+	7200 2750 7200 2800
+Wire Wire Line
+	7200 2550 7200 2500
+$Comp
+L power:GND #PWR013
+U 1 1 61BD571C
+P 5400 2550
+F 0 "#PWR013" H 5400 2300 50  0001 C CNN
+F 1 "GND" H 5400 2650 50  0000 C CNN
+F 2 "" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	5600 2500 5900 2500
 Wire Wire Line
@@ -139,10 +116,10 @@ Wire Wire Line
 Connection ~ 5600 2500
 Wire Wire Line
 	5600 2500 5600 2600
-Text GLabel 5500 3800 0    50   Input ~ 0
+Text GLabel 5500 3900 0    50   Input ~ 0
 +5V
 Wire Wire Line
-	5900 3800 5900 3700
+	5900 3900 5900 3700
 $Comp
 L power:GND #PWR014
 U 1 1 61BEF44E
@@ -155,10 +132,10 @@ F 3 "" H 5600 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J6
+L Connector:AudioJack2_SwitchT J5
 U 1 1 61BF6307
 P 7150 4950
-F 0 "J6" H 6970 4975 50  0000 R CNN
+F 0 "J5" H 6970 4975 50  0000 R CNN
 F 1 "OUT" H 6970 4884 50  0000 R CNN
 F 2 "PerpetualADSR:PJ301M" H 7150 4950 50  0001 C CNN
 F 3 "~" H 7150 4950 50  0001 C CNN
@@ -227,11 +204,7 @@ Wire Wire Line
 	4450 5050 4450 5000
 Wire Wire Line
 	4450 5000 4400 5000
-Wire Wire Line
-	6700 2500 6200 2500
 Connection ~ 5900 2500
-Wire Wire Line
-	9800 2800 9350 2800
 $Comp
 L power:GND #PWR06
 U 1 1 61BE4306
@@ -266,10 +239,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 3700 5600 3800
+	5600 3700 5600 3900
 Wire Wire Line
-	5500 3800 5600 3800
-Connection ~ 5600 3800
+	5500 3900 5600 3900
+Connection ~ 5600 3900
 Wire Wire Line
 	4650 3100 5200 3100
 $Comp
@@ -544,25 +517,8 @@ F 3 "" H 3700 2900 50  0001 C CNN
 	1    3700 2900
 	0    -1   1    0   
 $EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J5
-U 1 1 6202DB6C
-P 6800 2200
-F 0 "J5" H 6832 2600 50  0000 C CNN
-F 1 "MAX_V" H 6832 2500 50  0000 C CNN
-F 2 "PerpetualADSR:PJ301M" H 6800 2200 50  0001 C CNN
-F 3 "~" H 6800 2200 50  0001 C CNN
-	1    6800 2200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	6600 2650 6550 2650
-Wire Wire Line
-	6600 2200 6450 2200
-Wire Wire Line
-	6450 2200 6450 2800
-Wire Wire Line
-	6450 2800 6400 2800
+	6600 2650 6500 2650
 $Comp
 L Device:R_POT_Small RV1
 U 1 1 61BA15C3
@@ -574,152 +530,44 @@ F 3 "~" H 6700 2650 50  0001 C CNN
 	1    6700 2650
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J8
-U 1 1 62043CC6
-P 8350 2200
-F 0 "J8" H 8382 2600 50  0000 C CNN
-F 1 "FALL_V" H 8382 2500 50  0000 C CNN
-F 2 "PerpetualADSR:PJ301M" H 8350 2200 50  0001 C CNN
-F 3 "~" H 8350 2200 50  0001 C CNN
-	1    8350 2200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J10
-U 1 1 6204E216
-P 9450 2200
-F 0 "J10" H 9550 2600 50  0000 R CNN
-F 1 "FALL_T" H 9600 2500 50  0000 R CNN
-F 2 "PerpetualADSR:PJ301M" H 9450 2200 50  0001 C CNN
-F 3 "~" H 9450 2200 50  0001 C CNN
-	1    9450 2200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	8150 2650 8100 2650
-Wire Wire Line
-	8100 2650 8100 2300
-Wire Wire Line
-	8100 2300 8150 2300
-Wire Wire Line
-	9250 2650 9200 2650
-Wire Wire Line
-	9200 2650 9200 2300
-Wire Wire Line
-	9200 2300 9250 2300
-Wire Wire Line
-	6550 2300 6600 2300
-Wire Wire Line
-	6550 2650 6550 2300
-Wire Wire Line
-	5600 3800 5900 3800
-$Comp
-L Connector:AudioJack2_SwitchT J7
-U 1 1 622A5073
-P 7450 3800
-F 0 "J7" H 7482 4150 50  0000 C CNN
-F 1 "ATT_V" H 7482 4050 50  0000 C CNN
-F 2 "PerpetualADSR:PJ301M" H 7450 3800 50  0001 C CNN
-F 3 "~" H 7450 3800 50  0001 C CNN
-	1    7450 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J9
-U 1 1 622A506D
-P 8450 3800
-F 0 "J9" H 8482 4150 50  0000 C CNN
-F 1 "RISE_T" H 8482 4050 50  0000 C CNN
-F 2 "PerpetualADSR:PJ301M" H 8450 3800 50  0001 C CNN
-F 3 "~" H 8450 3800 50  0001 C CNN
-	1    8450 3800
-	-1   0    0    -1  
-$EndComp
+	5600 3900 5900 3900
 $Comp
 L Device:R_POT_Small RV2
 U 1 1 61B9ADF7
-P 6700 4250
-F 0 "RV2" H 6640 4296 50  0000 R CNN
-F 1 "ATT_T" H 6640 4205 50  0000 R CNN
-F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 6700 4250 50  0001 C CNN
-F 3 "~" H 6700 4250 50  0001 C CNN
-	1    6700 4250
+P 6700 3750
+F 0 "RV2" H 6640 3796 50  0000 R CNN
+F 1 "ATT_T" H 6640 3705 50  0000 R CNN
+F 2 "PerpetualADSR:Potentiometer_Alps_RK09L_Single_Vertical" H 6700 3750 50  0001 C CNN
+F 3 "~" H 6700 3750 50  0001 C CNN
+	1    6700 3750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 4250 6500 4250
-Wire Wire Line
-	7250 4250 7200 4250
-Wire Wire Line
-	7200 4250 7200 3900
-Wire Wire Line
-	7200 3900 7250 3900
-Wire Wire Line
-	8250 4250 8200 4250
-Wire Wire Line
-	8200 4250 8200 3900
-Wire Wire Line
-	8200 3900 8250 3900
-Wire Wire Line
-	9250 4250 9200 4250
-Wire Wire Line
-	9200 4250 9200 3900
-Wire Wire Line
-	9200 3900 9250 3900
+	6600 3750 6500 3750
 Wire Wire Line
 	6500 3500 6400 3500
 Wire Wire Line
-	6700 4100 6700 4150
+	6700 3600 6700 3650
 Wire Wire Line
-	7350 4150 7350 4100
+	7200 3650 7200 3600
 Wire Wire Line
-	8350 4150 8350 4100
+	7700 3650 7700 3600
 Wire Wire Line
-	9350 4150 9350 4100
+	8250 3650 8250 3600
 Wire Wire Line
-	6700 4400 6700 4350
+	6700 3900 6700 3850
 Wire Wire Line
-	7350 4350 7350 4400
+	7200 3850 7200 3900
 Wire Wire Line
-	8350 4350 8350 4400
+	7700 3850 7700 3900
 Wire Wire Line
-	9350 4350 9350 4400
+	8250 3850 8250 3900
 Wire Wire Line
-	8250 3700 8200 3700
+	5600 4400 5600 3900
 Wire Wire Line
-	8200 3700 8200 3600
-Wire Wire Line
-	9250 3700 9200 3700
-Wire Wire Line
-	9200 3700 9200 3600
-Wire Wire Line
-	7250 3700 7200 3700
-Wire Wire Line
-	7200 3700 7200 3600
-Wire Wire Line
-	9200 3600 9900 3600
-Wire Wire Line
-	9900 3600 9900 4100
-$Comp
-L Connector:AudioJack2_SwitchT J11
-U 1 1 622A5079
-P 9450 3800
-F 0 "J11" H 9450 4150 50  0000 C CNN
-F 1 "RISE_V" H 9450 4050 50  0000 C CNN
-F 2 "PerpetualADSR:PJ301M" H 9450 3800 50  0001 C CNN
-F 3 "~" H 9450 3800 50  0001 C CNN
-	1    9450 3800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 4400 5900 4400
-Wire Wire Line
-	5600 4400 5600 3800
-Wire Wire Line
-	5900 3800 5900 4400
-Connection ~ 5900 3800
-Connection ~ 5900 4400
+	5900 3900 5900 4400
+Connection ~ 5900 3900
 Wire Wire Line
 	5900 4400 5800 4400
 Wire Wire Line
@@ -1101,325 +949,20 @@ Text GLabel 950  1300 0    50   Input ~ 0
 PC5
 Text GLabel 1450 1300 2    50   Input ~ 0
 PC6
-$Comp
-L Device:D_Schottky_Small D11
-U 1 1 625B68AC
-P 7000 3950
-F 0 "D11" V 6954 4020 50  0000 L CNN
-F 1 "S" V 7045 4020 50  0000 L CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" V 7000 3950 50  0001 C CNN
-F 3 "~" V 7000 3950 50  0001 C CNN
-	1    7000 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D10
-U 1 1 625B68B2
-P 6700 3950
-F 0 "D10" V 6654 4020 50  0000 L CNN
-F 1 "5.1V" V 6745 4020 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 6700 3950 50  0001 C CNN
-F 3 "~" V 6700 3950 50  0001 C CNN
-	1    6700 3950
-	0    1    1    0   
-$EndComp
+Connection ~ 7200 3600
+Connection ~ 7700 3600
+Connection ~ 8250 3600
 Wire Wire Line
-	6700 3400 6700 3800
+	7200 3900 7700 3900
+Connection ~ 7700 3900
 Wire Wire Line
-	7000 3850 7000 3800
+	7700 3900 8250 3900
 Wire Wire Line
-	7000 3800 6700 3800
-Connection ~ 6700 3800
+	6400 3300 7500 3300
 Wire Wire Line
-	6700 3800 6700 3850
+	6400 3200 8050 3200
 Wire Wire Line
-	7000 3800 7250 3800
-Connection ~ 7000 3800
-Wire Wire Line
-	6700 4050 6700 4100
-Wire Wire Line
-	6700 4100 7000 4100
-Wire Wire Line
-	7000 4100 7000 4050
-$Comp
-L Device:D_Schottky_Small D15
-U 1 1 6263C222
-P 8000 3950
-F 0 "D15" V 7954 4020 50  0000 L CNN
-F 1 "S" V 8045 4020 50  0000 L CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" V 8000 3950 50  0001 C CNN
-F 3 "~" V 8000 3950 50  0001 C CNN
-	1    8000 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D13
-U 1 1 6263C228
-P 7700 3950
-F 0 "D13" V 7654 4020 50  0000 L CNN
-F 1 "5.1V" V 7745 4020 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 7700 3950 50  0001 C CNN
-F 3 "~" V 7700 3950 50  0001 C CNN
-	1    7700 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7700 4050 7700 4100
-Wire Wire Line
-	7700 4100 8000 4100
-Wire Wire Line
-	8000 4100 8000 4050
-Wire Wire Line
-	7700 3850 7700 3800
-Wire Wire Line
-	7700 3800 8000 3800
-Wire Wire Line
-	8000 3850 8000 3800
-Connection ~ 8000 3800
-Wire Wire Line
-	8000 3800 8250 3800
-$Comp
-L Device:D_Schottky_Small D19
-U 1 1 626757E1
-P 9000 3950
-F 0 "D19" V 8954 4020 50  0000 L CNN
-F 1 "S" V 9045 4020 50  0000 L CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" V 9000 3950 50  0001 C CNN
-F 3 "~" V 9000 3950 50  0001 C CNN
-	1    9000 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D17
-U 1 1 626757E7
-P 8700 3950
-F 0 "D17" V 8654 4020 50  0000 L CNN
-F 1 "5.1V" V 8745 4020 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 8700 3950 50  0001 C CNN
-F 3 "~" V 8700 3950 50  0001 C CNN
-	1    8700 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8700 4050 8700 4100
-Wire Wire Line
-	8700 4100 9000 4100
-Wire Wire Line
-	9000 4100 9000 4050
-Wire Wire Line
-	8700 3850 8700 3800
-Wire Wire Line
-	8700 3800 9000 3800
-Wire Wire Line
-	9000 3850 9000 3800
-Wire Wire Line
-	7000 4100 7350 4100
-Connection ~ 7000 4100
-Wire Wire Line
-	7350 4100 7700 4100
-Connection ~ 7350 4100
-Connection ~ 7700 4100
-Wire Wire Line
-	8000 4100 8350 4100
-Connection ~ 8000 4100
-Wire Wire Line
-	8350 4100 8700 4100
-Connection ~ 8350 4100
-Connection ~ 8700 4100
-Wire Wire Line
-	9000 4100 9350 4100
-Connection ~ 9000 4100
-Connection ~ 9350 4100
-Wire Wire Line
-	7350 4400 8350 4400
-Connection ~ 8350 4400
-Wire Wire Line
-	8350 4400 9350 4400
-Connection ~ 9200 3600
-Wire Wire Line
-	7200 3600 8200 3600
-Connection ~ 8200 3600
-Wire Wire Line
-	8200 3600 9200 3600
-Wire Wire Line
-	9000 3800 9250 3800
-Connection ~ 9000 3800
-Wire Wire Line
-	7700 3800 7700 3300
-Wire Wire Line
-	6400 3300 7700 3300
-Connection ~ 7700 3800
-Wire Wire Line
-	8700 3200 8700 3800
-Wire Wire Line
-	6400 3200 8700 3200
-Connection ~ 8700 3800
-Wire Wire Line
-	9350 4100 9900 4100
-Wire Wire Line
-	9900 4200 9900 4100
-Connection ~ 9900 4100
-$Comp
-L Device:D_Schottky_Small D9
-U 1 1 627D5557
-P 6200 2350
-F 0 "D9" V 6154 2420 50  0000 L CNN
-F 1 "S" V 6245 2420 50  0000 L CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" V 6200 2350 50  0001 C CNN
-F 3 "~" V 6200 2350 50  0001 C CNN
-	1    6200 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D8
-U 1 1 627D555D
-P 5900 2350
-F 0 "D8" V 5854 2420 50  0000 L CNN
-F 1 "5.1V" V 5945 2420 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5900 2350 50  0001 C CNN
-F 3 "~" V 5900 2350 50  0001 C CNN
-	1    5900 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5900 2450 5900 2500
-Wire Wire Line
-	6200 2450 6200 2500
-Connection ~ 6200 2500
-Wire Wire Line
-	6200 2500 5900 2500
-Wire Wire Line
-	5900 2250 5900 2200
-Wire Wire Line
-	5900 2200 6200 2200
-Connection ~ 6450 2200
-Wire Wire Line
-	6200 2250 6200 2200
-Connection ~ 6200 2200
-Wire Wire Line
-	6200 2200 6450 2200
-$Comp
-L Device:D_Schottky_Small D14
-U 1 1 62889BE3
-P 7900 2350
-F 0 "D14" V 7854 2420 50  0000 L CNN
-F 1 "S" V 7945 2420 50  0000 L CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" V 7900 2350 50  0001 C CNN
-F 3 "~" V 7900 2350 50  0001 C CNN
-	1    7900 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D12
-U 1 1 62889BE9
-P 7600 2350
-F 0 "D12" V 7554 2420 50  0000 L CNN
-F 1 "5.1V" V 7645 2420 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 7600 2350 50  0001 C CNN
-F 3 "~" V 7600 2350 50  0001 C CNN
-	1    7600 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7600 2250 7600 2200
-Wire Wire Line
-	7600 2200 7900 2200
-Wire Wire Line
-	7900 2250 7900 2200
-Connection ~ 7900 2200
-Wire Wire Line
-	7900 2200 8150 2200
-Wire Wire Line
-	7600 2450 7600 2500
-Wire Wire Line
-	7600 2500 7900 2500
-Wire Wire Line
-	7900 2500 7900 2450
-$Comp
-L Device:D_Schottky_Small D18
-U 1 1 628BCDB4
-P 9000 2350
-F 0 "D18" V 8954 2420 50  0000 L CNN
-F 1 "S" V 9045 2420 50  0000 L CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" V 9000 2350 50  0001 C CNN
-F 3 "~" V 9000 2350 50  0001 C CNN
-	1    9000 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D16
-U 1 1 628BCDBA
-P 8700 2350
-F 0 "D16" V 8654 2420 50  0000 L CNN
-F 1 "5.1V" V 8745 2420 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 8700 2350 50  0001 C CNN
-F 3 "~" V 8700 2350 50  0001 C CNN
-	1    8700 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8700 2250 8700 2200
-Wire Wire Line
-	8700 2200 9000 2200
-Wire Wire Line
-	9000 2250 9000 2200
-Connection ~ 9000 2200
-Wire Wire Line
-	9000 2200 9250 2200
-Wire Wire Line
-	8700 2450 8700 2500
-Wire Wire Line
-	8700 2500 9000 2500
-Wire Wire Line
-	9000 2500 9000 2450
-Wire Wire Line
-	7150 2500 7600 2500
-Connection ~ 7600 2500
-Wire Wire Line
-	7900 2500 8250 2500
-Connection ~ 7900 2500
-Wire Wire Line
-	8250 2500 8700 2500
-Connection ~ 8250 2500
-Connection ~ 8700 2500
-Wire Wire Line
-	9000 2500 9350 2500
-Connection ~ 9000 2500
-Wire Wire Line
-	9250 2100 9200 2100
-Wire Wire Line
-	9200 2100 9200 2000
-Wire Wire Line
-	9200 2000 8100 2000
-Connection ~ 5600 2000
-Wire Wire Line
-	5600 2000 5600 2500
-Wire Wire Line
-	6600 2100 6550 2100
-Wire Wire Line
-	6550 2100 6550 2000
-Wire Wire Line
-	6550 2000 5600 2000
-Wire Wire Line
-	8150 2100 8100 2100
-Wire Wire Line
-	8100 2100 8100 2000
-Connection ~ 9350 2800
-Wire Wire Line
-	7150 2800 8250 2800
-Connection ~ 8250 2800
-Wire Wire Line
-	8250 2800 9350 2800
-Wire Wire Line
-	7600 2200 7500 2200
-Wire Wire Line
-	7500 2200 7500 3000
-Connection ~ 7600 2200
-Wire Wire Line
-	8600 3100 8600 2200
-Wire Wire Line
-	8600 2200 8700 2200
-Connection ~ 8700 2200
+	8250 3600 8750 3600
 Wire Wire Line
 	5650 6600 5750 6600
 Connection ~ 5750 6600
@@ -1493,25 +1036,97 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22248a.pdf" H 6600 4850 50 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 3500 6500 4250
-Wire Wire Line
-	7000 2650 7050 2650
-Connection ~ 6700 4100
-Wire Wire Line
-	6700 3400 6400 3400
+	7000 2650 7100 2650
 Wire Wire Line
 	7000 2900 7000 2650
 Wire Wire Line
-	6700 2800 7150 2800
-Connection ~ 7150 2800
+	6700 2800 7200 2800
 Wire Wire Line
 	7000 2900 6400 2900
 Wire Wire Line
 	6400 3000 7500 3000
 Wire Wire Line
-	8600 3100 6400 3100
+	6700 3600 7200 3600
 Wire Wire Line
-	6550 2000 8100 2000
-Connection ~ 6550 2000
-Connection ~ 8100 2000
+	7200 3600 7700 3600
+Wire Wire Line
+	7700 3600 8250 3600
+Wire Wire Line
+	6500 3750 6500 3500
+Wire Wire Line
+	7100 3750 7000 3750
+Wire Wire Line
+	7000 3750 7000 3400
+Wire Wire Line
+	6400 3400 7000 3400
+Wire Wire Line
+	7600 3750 7500 3750
+Wire Wire Line
+	7500 3750 7500 3300
+Wire Wire Line
+	8150 3750 8050 3750
+Wire Wire Line
+	8050 3750 8050 3200
+Wire Wire Line
+	5900 2500 6700 2500
+Wire Wire Line
+	6700 3900 7200 3900
+Connection ~ 7200 3900
+Wire Wire Line
+	5900 3900 6700 3900
+Connection ~ 6700 3900
+Wire Wire Line
+	6500 2650 6500 2800
+Wire Wire Line
+	6400 2800 6500 2800
+Wire Wire Line
+	7600 2650 7500 2650
+Wire Wire Line
+	7500 2650 7500 3000
+Wire Wire Line
+	8150 2650 8050 2650
+Wire Wire Line
+	8050 2650 8050 3100
+Wire Wire Line
+	8050 3100 6400 3100
+Connection ~ 7200 2800
+Wire Wire Line
+	7700 2800 7700 2750
+Connection ~ 7700 2800
+Wire Wire Line
+	7700 2800 7200 2800
+Wire Wire Line
+	8250 2800 8250 2750
+Wire Wire Line
+	8250 2800 7700 2800
+Wire Wire Line
+	8250 2550 8250 2500
+Wire Wire Line
+	8250 2500 7700 2500
+Connection ~ 6700 2500
+Connection ~ 7200 2500
+Wire Wire Line
+	7200 2500 6700 2500
+Wire Wire Line
+	5400 2550 5400 2500
+Wire Wire Line
+	5400 2500 5600 2500
+Wire Wire Line
+	8750 3600 8750 2500
+Wire Wire Line
+	8750 2500 8250 2500
+Connection ~ 8250 2500
+Wire Wire Line
+	8250 2800 8600 2800
+Wire Wire Line
+	8600 2800 8600 3900
+Wire Wire Line
+	8600 3900 8250 3900
+Connection ~ 8250 2800
+Connection ~ 8250 3900
+Wire Wire Line
+	7700 2550 7700 2500
+Connection ~ 7700 2500
+Wire Wire Line
+	7700 2500 7200 2500
 $EndSCHEMATC
